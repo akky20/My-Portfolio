@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.nav-link{
+
+    color: orange;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    margin: 0px 20px;
+}
+
+#navi{
+    background-color: black;
+}
+.nav-link:hover{
+    color: rgb(255, 136, 0);
+}
+
+
+.navbar-nav .nav-link.active{
+    color: rgb(255, 136, 0);
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.navbar-item{
+    margin: 0px 6px;
+}
+.navbar-nav{
+    margin-left: 60px;
+}
+
+.navbar-brand{
+    font-weight: 500;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
+

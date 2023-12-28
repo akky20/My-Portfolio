@@ -1,0 +1,138 @@
+.main{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    /* height: 100%; */
+    padding: 0 120px;
+}
+
+
+.text-area{
+    width: 50%;
+    /* border-right: #000000 3px double; */
+}
+
+.text-area-2{
+    /* height: 100px; */
+    width: 50%;
+    padding: 0 20px;
+}
+
+.text-cont{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* border: #000000 5px solid; */
+    width: 100%;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: #474747 9px 9px 0px;
+}
+
+.head{
+    border-bottom: grey 2px solid;
+}
+
+.text-section{
+    margin-top: 20px;
+}
+
+.text-cont p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    margin: 0;
+    font-size: 19px;
+    font-family: 'Mukta', sans-serif;
+
+
+}
+
+.text-area h1{
+    font-family: 'Righteous', sans-serif;   
+    color: white;
+    font-size:70px;
+    /* background-size: contain; */
+    background-clip: text;
+    text-shadow: #000000 1px 1px 0px;
+
+  }
+
+  span{
+    color: black;
+    text-shadow: #f2f2f2 1.5px 1.5px 0px;
+}
+
+.text-area p{
+    font-size: 20px;
+    width: 90%;
+}
+
+@media  screen and (max-width: 1120px) {
+    
+    .main h1{
+        font-size: 60px;
+    }
+    .text-area p{
+        font-size: 18px;
+
+    }
+    
+}
+
+@media  screen and (max-width: 955px) {
+    .main{
+        padding: 0 70px;
+    }
+}
+
+@media  screen and (max-width: 841px) {
+    .main{
+        margin-top: 0;
+        padding: 20px 0px;
+    }
+    .text-area{
+        margin-top: 0;
+        width: 70%;
+        /* text-align: ; */
+    }
+    .text-area-2{
+        margin-top: 30px;
+        width: 90%;
+        /* font-size: 10px; */
+    }
+    .text-cont{
+        padding: 20px;
+    }
+    .text-area p{
+        font-size: 16px;
+    }
+
+    .text-area-2 p{
+        font-size: 18px;
+    }
+    
+}
+
+@media  screen and (max-width: 841px) {
+    .main h1{
+        font-size: 54px;
+    }
+    .text-area{
+        margin-top: 0;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (width: 1024px) and (height:600px) {
+    .main {
+      margin-top: 30px;
+    }
+  }

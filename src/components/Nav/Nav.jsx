@@ -24,7 +24,6 @@ const data = [
 
 
 
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg" data-bs-theme="dark" id="navi">
@@ -46,7 +45,7 @@ const Navbar = () => {
           </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 navbar-item">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 navbar-item ">
             {
               data.map((item, key) => (
                 <li key={key} className="nav-item">

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import ProfilePic from './Profile.png';
 import Navbar from '../Nav/Nav';
 import { Link } from 'react-router-dom';
 
@@ -11,7 +10,7 @@ const Home = () => {
             <Navbar />
             <div class="intro">
                 <div class="my-photo">
-                    <img src={ProfilePic} class="img" alt="..." />
+                    <img src="https://i.postimg.cc/XYd9L0QG/profile-pic-12-1.png" class="img" alt="..." />
                 </div>
 
 

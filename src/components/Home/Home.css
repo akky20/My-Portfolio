@@ -248,7 +248,7 @@ body {
   /* width: 1800px; */
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .my-photo {
@@ -321,9 +321,6 @@ label {
 
 .my-intro p {
   font-family: 'Roboto Slab', serif;
-  /* font-size: 15px; */
-  /* font-family: 'Raleway', sans-serif; */
-
 }
 
 .form-cont button {

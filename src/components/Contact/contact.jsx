@@ -6,7 +6,7 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact-body'>
             <Navbar />
             <div className='main-cont'>
                 <h1 id='connect-head'>Get in <span>Touch</span></h1>

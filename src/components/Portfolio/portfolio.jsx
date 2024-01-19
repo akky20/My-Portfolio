@@ -15,7 +15,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 
 const Portfolio = () => {
     return (
-        <div>
+        <div id='portfolio-body'>
             <Navbar />
             <div className='cont'>
                 <div id='work-head'>

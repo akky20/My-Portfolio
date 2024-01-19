@@ -4,11 +4,11 @@ import Navbar from '../Nav/Nav';
 
 const About = () => {
     return (
-        <div>
+        <div id='About-body'>
             <Navbar />
             <div className='main'>
                 <div className='text-area'>
-                    <h1>Transforming <span>Ideas</span> into Intelligent Reality</h1>
+                    <h1>Enthusiastic <span> Creator</span> blending Tech and Imagination.</h1>
                     <p>I am a tech-savvy individual with a creative flair, possessing a vivid imagination...</p>
 
                     <a href="https://drive.google.com/file/d/1X_NEwZFxE-1tFm-xcU89ObIK5TnZnBAQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">

@@ -34,8 +34,8 @@ body {
 
 .mask-2.cd-intro-content .content-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 650px;
+  /* width: 100%; */
+  /* max-width: 650px; */
   height: 100%;
   margin: 0 auto;
   /* padding: 2em 0; */

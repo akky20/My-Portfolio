@@ -16,6 +16,9 @@
 #navi{
     background-color: black;
 }
+.navbar-toggler{
+    border: white 2px solid;
+}
 .nav-link:hover{
     color: rgb(255, 136, 0);
 }

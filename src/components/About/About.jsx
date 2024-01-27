@@ -35,7 +35,9 @@ const About = () => {
                                 <span>Javascript</span>
                                 <span>Bootstrap</span>
                                 <span>React</span>
-                                <span>ROS2</span>
+                                <span>Node.Js</span>
+
+                                <span>ROS</span>
 
                             </div>
                             <p>Proficient in Python coding with a passion for web development and active engagement in ROS (Robot Operating System)</p>

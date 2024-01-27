@@ -19,7 +19,7 @@ const Home = () => {
                         <div class="content-wrapper my-intro ">
                             <div >
                                 <h1>Abhiroop Bhavsar</h1>
-                                <p >"Passionate Creator of Digital Marvels."</p>
+                                <p >"Passionate Creator & Developer"</p>
                                 <div class="action-wrapper">
 
                                 <Link to="/about">

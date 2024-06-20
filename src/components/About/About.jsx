@@ -23,10 +23,6 @@ const About = () => {
                             <p>Currently I'm pursuing my Bachelor's degree in Mechanical Engineering from IIT Jodhpur </p>
                         </div>
                         <div className='text-section'>
-                            <p className='head'>Creative Expressions</p>
-                            <p>India Book of Records holder for Smallest Origami <a href="https://indiabookofrecords.in/tag/minuscule-origami-art/" target='blank'>Know more</a>. Also, skilled in drawing & painting, and sharing creativity on my YouTube channel <a href="https://www.youtube.com/@ArtNIdea" target='blank'>Link</a></p>
-                        </div>
-                        <div className='text-section'>
                             <p className='head'>TechEnthusiast</p>
                             <div className="techstack-cont">
                                 <span>Python</span>
@@ -36,12 +32,21 @@ const About = () => {
                                 <span>Bootstrap</span>
                                 <span>React</span>
                                 <span>Node.Js</span>
+                                <span>MySQL</span>
+                                <span>ROS/ROS2</span>
+                                <span>Gazebo, Rviz</span>
+                                <span>Tkinter, PyQT</span>
 
-                                <span>ROS</span>
+
 
                             </div>
-                            <p>Proficient in Python coding with a passion for web development and active engagement in ROS (Robot Operating System)</p>
+                            <p>Proficient in Python coding with a passion for web development and active engagement in ROS (Robot Operating System) & Currently working as a Research Intern at IIT Roorkee and the School of AIDE-IIT Jodhpur.</p>
                         </div>
+                        <div className='text-section'>
+                            <p className='head'>Creative Expressions</p>
+                            <p>India Book of Records holder for Smallest Origami <a href="https://indiabookofrecords.in/tag/minuscule-origami-art/" target='blank'>Know more</a>. Also, skilled in drawing & painting, and sharing creativity on my YouTube channel <a href="https://www.youtube.com/@ArtNIdea" target='blank'>Link</a></p>
+                        </div>
+
 
 
 

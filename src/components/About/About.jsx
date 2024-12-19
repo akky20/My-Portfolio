@@ -11,7 +11,7 @@ const About = () => {
                     <h1>Enthusiastic <span> Creator</span> blending Tech and Imagination.</h1>
                     <p>I am a tech-savvy individual with a creative flair, possessing a vivid imagination...</p>
 
-                    <a href="https://drive.google.com/file/d/1X_NEwZFxE-1tFm-xcU89ObIK5TnZnBAQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1vxKesiOuOrL7RQTOMrV-E7WRj2sWVivU/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <button >download cv</button>
                     </a>
 
@@ -27,20 +27,20 @@ const About = () => {
                             <div className="techstack-cont">
                                 <span>Python</span>
                                 <span>C/C++</span>
+                                <span>ROS/ROS2</span>
+                                <span>Gazebo, Rviz</span>
                                 <span>HTML,CSS</span>
                                 <span>Javascript</span>
                                 <span>Bootstrap</span>
                                 <span>React</span>
                                 <span>Node.Js</span>
                                 <span>MySQL</span>
-                                <span>ROS/ROS2</span>
-                                <span>Gazebo, Rviz</span>
                                 <span>Tkinter, PyQT</span>
 
 
 
                             </div>
-                            <p>Proficient in Python coding with a passion for web development and active engagement in ROS (Robot Operating System) & Currently working as a Research Intern at IIT Roorkee and the School of AIDE-IIT Jodhpur.</p>
+                            <p>Proficient in Python coding with a passion for Robotics and active engagement in ROS (Robot Operating System) & Currently working as a Research Intern at IIT Roorkee and seeking for more such opportunities.. </p>
                         </div>
                         <div className='text-section'>
                             <p className='head'>Creative Expressions</p>

@@ -5,7 +5,9 @@ import CodePic1 from './Screenshot 2023-12-28 184443.png';
 import CodePic2 from './CodePic2.png';
 import CodePic3 from './CodePic3.png';
 import MAVPic from './MAVPic.jpg';
+import ware from './ware.png';
 import CourseWebPic from './CourseWebPic.png';
+import gui from './arm.jpg';
 // import './Home.css';
 // import ProfilePic from './Profile.png';
 import Navbar from '../Nav/Nav';
@@ -26,6 +28,36 @@ const Portfolio = () => {
 
                 <div className='card-cont'>
                     <div class="card">
+                        <p class="card__title">Kalyani BharatForge</p>
+                        <img style={{ opacity: "0.4" }} src={ware} alt="" />
+                        <div class="card__content">
+                            <p class="card__description">Centralised Inteligence for Dynamic Swarm Navigation
+                            </p>
+                            <a className='work-link' href="https://github.com/akky20/Kalyani-BharatForge" target="_blank" rel="noopener noreferrer">
+                                {/* GitHub */}
+                                <GitHubIcon fontSize='mediu' />
+                            </a>
+                        </div>
+
+                    </div> 
+
+
+                    <div class="card">
+                        <p class="card__title">Wearable Controller</p>
+                        <img style={{ opacity: "0.4" }} src={gui} alt="" />
+                        <div class="card__content">
+                            <p class="card__description">wearable controller for precise real-time control of industrial robots
+                            </p>
+                            <a className='work-link' href="https://github.com/akky20/Kalyani-BharatForge" target="_blank" rel="noopener noreferrer">
+                                {/* GitHub */}
+                                <GitHubIcon fontSize='mediu' />
+                            </a>
+                        </div>
+
+                    </div> 
+
+
+                    <div class="card">
                         <p class="card__title">Water Monitoring System</p>
                         <img style={{ opacity: "0.4" }} src={CodePic1} alt="" />
                         <div class="card__content">
@@ -38,6 +70,9 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
+
+
+
                     <div class="card">
                         <p class="card__title">CBIR</p>
                         <img style={{ opacity: "0.4" }} src={CodePic2} alt="" />
@@ -57,7 +92,7 @@ const Portfolio = () => {
                             <p class="card__description">Designed and fabricated precision small wings for MAV prototypes,
                                 optimizing manufacturing methods.
                             </p>
-                            <a className='work-link' href="https://drive.google.com/file/d/1rKRIfIzHbUyY5j6ilGexIBpBe1o4CF5C/view" target="_blank" rel="noopener noreferrer">
+                            <a className='work-link' href="https://drive.google.com/file/d/1uj9pym-0FoXru90E0E8lYGBfj2RhSqGN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 {/* GitHub */}
                                 <DescriptionIcon fontSize='mediu' />
                             </a>

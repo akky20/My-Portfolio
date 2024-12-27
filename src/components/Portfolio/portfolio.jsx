@@ -8,6 +8,7 @@ import MAVPic from './MAVPic.jpg';
 import ware from './ware.png';
 import CourseWebPic from './CourseWebPic.png';
 import gui from './arm.jpg';
+import cansat from './cansat.jpg';
 // import './Home.css';
 // import ProfilePic from './Profile.png';
 import Navbar from '../Nav/Nav';
@@ -15,11 +16,60 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import DescriptionIcon from '@mui/icons-material/Description';
 
 
+import WorkIcon from '@mui/icons-material/Work';
+
 const Portfolio = () => {
-    return (
+    const experiences = [
+        {
+            title: "Research Assistant",
+            company: "IIT Roorkee",
+            duration: "Apr 2024 - Present",
+            description: "Developing algorithms for AMRs and real-world vehicles, focusing on object detection, sensor fusion, path planning, and autonomous navigation using computer vision.",
+            technologies: "ROS, Python, Computer Vision, OpenCV"
+        },
+        {
+            title: "Robotics Intern",
+            company: "Upsurge Labs",
+            duration: "Aug 2022 - May 2023",
+            description: "Utilized ROS for robotics development, created simulation, and designed CAD models during the internship.",
+            technologies: "ROS, Python, Computer Vision, SolidWorks"
+        },
+        {
+            title: "Summer Research Intern",
+            company: "IIT Jodhpur",
+            duration: "May 2024 - Jul 2024",
+            description: "Working on wearable controllers for industrial robots. Developing gesture recognition systems and human-robot interfaces.",
+            technologies: "ROS, Python, Tkinter, PyQT"
+        }
+
+    ];    return (
         <div id='portfolio-body'>
             <Navbar />
             <div className='cont'>
+            <div id='experience-section'>
+                    <h1>Professional <span>Experience</span></h1>
+                    <p id='experience-para'>My Journey in Technology and Research...</p>
+                    
+                    <div className='experience-cards'>
+                        {experiences.map((exp, index) => (
+                            <div key={index} className="experience-card">
+                                <div className="experience-header">
+                                    <WorkIcon className="work-icon" />
+                                    <h3>{exp.title}</h3>
+                                </div>
+                                <h4>{exp.company}</h4>
+                                <p className="duration">{exp.duration}</p>
+                                <p className="description">{exp.description}</p>
+                                <p className="technologies">
+                                    <strong>Technologies:</strong> {exp.technologies}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+
+
                 <div id='work-head'>
                     <h1>My <span>Work</span></h1>
                     <p>A Showcase of My Journey ... </p>
@@ -48,9 +98,23 @@ const Portfolio = () => {
                         <div class="card__content">
                             <p class="card__description">wearable controller for precise real-time control of industrial robots
                             </p>
-                            <a className='work-link' href="https://github.com/akky20/Kalyani-BharatForge" target="_blank" rel="noopener noreferrer">
+                            {/* <a className='work-link' href="https://github.com/akky20/Kalyani-BharatForge" target="_blank" rel="noopener noreferrer"> */}
                                 {/* GitHub */}
-                                <GitHubIcon fontSize='mediu' />
+                                {/* <GitHubIcon fontSize='mediu' /> */}
+                            {/* </a> */}
+                        </div>
+
+                    </div> 
+
+                    <div class="card">
+                        <p class="card__title">CANSAT</p>
+                        <img style={{ opacity: "0.4" }} src={cansat} alt="" />
+                        <div class="card__content">
+                            <p class="card__description">Competition by IN-SPACe, ASI and ISRO
+                            </p>
+                            <a className='work-link' href="https://drive.google.com/drive/folders/1vqoStJ1tTVgmJE4uM9ZerAFsZrVNXuD7?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                {/* GitHub */}
+                                <DescriptionIcon fontSize='mediu' />
                             </a>
                         </div>
 

@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg" data-bs-theme="dark" id="navi">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           @kky
         </a>
         <button

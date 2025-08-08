@@ -25,22 +25,16 @@ const About = () => {
                         <div className='text-section'>
                             <p className='head'>TechEnthusiast</p>
                             <div className="techstack-cont">
-                                <span>Python</span>
-                                <span>C/C++</span>
-                                <span>ROS/ROS2</span>
-                                <span>Gazebo, Rviz</span>
-                                <span>HTML,CSS</span>
-                                <span>Javascript</span>
-                                <span>Bootstrap</span>
-                                <span>React</span>
-                                <span>Node.Js</span>
-                                <span>MySQL</span>
-                                <span>Tkinter, PyQT</span>
-
-
-
+                                <span>Mechanical Engineer</span>
+                                <span>CAD Designer</span>
+                                {/* <span>Product Developer</span> */}
+                                <span>ROS/ROS2 Developer</span>
+                                <span>Robotics Enthusiast</span>
+                                <span>Autonomous Systems Enthusiast</span>
+                                <span>AI & Computer Vision</span>
+                                <span>Open-Source Contributor</span>
                             </div>
-                            <p>Proficient in Python coding with a passion for Robotics and active engagement in ROS (Robot Operating System) & Currently working as a Research Intern at IIT Roorkee and seeking for more such opportunities.. </p>
+                            <p>Proficient in Python coding with a passion for Robotics and active engagement in ROS (Robot Operating System) & Currently working as a remote intern as a Mechatronics Engineer at Summon (Paris, France)</p>
                         </div>
                         <div className='text-section'>
                             <p className='head'>Creative Expressions</p>

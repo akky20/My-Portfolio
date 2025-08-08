@@ -21,22 +21,29 @@ import WorkIcon from '@mui/icons-material/Work';
 const Portfolio = () => {
     const experiences = [
         {
+            title: "Mechatronics Engineer Intern",
+            company: "Summon, Paris (France)",
+            duration: "June 2025 - Present ",
+            description: "Developing a modular end-effector tool for humanoid robot cleaning tasks, including CAD modeling, quicklock mechanical design, reducing attachment time by 50%, motor integration, and VR-based control interface.",
+            technologies: "Solidworks, Product Design, ROS"
+        },
+        {
             title: "Research Assistant",
-            company: "IIT Roorkee",
-            duration: "Apr 2024 - Present",
+            company: "IIT Roorkee, India",
+            duration: "Aug 2024 - June 2025",
             description: "Developing algorithms for AMRs and real-world vehicles, focusing on object detection, sensor fusion, path planning, and autonomous navigation using computer vision.",
             technologies: "ROS, Python, Computer Vision, OpenCV"
         },
         {
             title: "Robotics Intern",
-            company: "Upsurge Labs",
-            duration: "Aug 2022 - May 2023",
+            company: "Upsurge Labs, Bengaluru (India)",
+            duration: "Oct 2024 - Nov 2024",
             description: "Utilized ROS for robotics development, created simulation, and designed CAD models during the internship.",
             technologies: "ROS, Python, Computer Vision, SolidWorks"
         },
         {
             title: "Summer Research Intern",
-            company: "IIT Jodhpur",
+            company: "IIT Jodhpur, India",
             duration: "May 2024 - Jul 2024",
             description: "Working on wearable controllers for industrial robots. Developing gesture recognition systems and human-robot interfaces.",
             technologies: "ROS, Python, Tkinter, PyQT"

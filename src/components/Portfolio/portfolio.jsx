@@ -1,6 +1,5 @@
 import React from 'react';
 import './portfolio.css';
-import pic1 from './5555.png';
 import CodePic1 from './Screenshot 2023-12-28 184443.png';
 import CodePic2 from './CodePic2.png';
 import CodePic3 from './CodePic3.png';

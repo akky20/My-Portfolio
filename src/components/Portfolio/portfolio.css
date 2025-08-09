@@ -188,7 +188,76 @@
 
 }
 
+.experience-section {
+    padding-top: 120px;
+}
 
+.experience-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 6px 7px rgb(85, 85, 85);
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+}
+
+.experience-icon {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.experience-content h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.experience-content h4 {
+    font-size: 1.3rem;
+    color: orange;
+    margin-bottom: 0.5rem;
+}
+
+.experience-content .duration {
+    font-size: 1rem;
+    color: #c1c1c1;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.experience-content .description {
+    font-size: 1.1rem;
+    color: #c1c1c1;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.experience-content .technologies {
+    font-size: 1rem;
+    color: #c1c1c1;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .card:hover .card__title {
   display: none;
@@ -224,7 +293,7 @@
 }
 
 .cont h1 {
-  text-align: left;
+  text-align: center;
   /* background:rgba(255, 255, 255, 0.525);
   border-radius: 10px; */
   /* width: 230px; */
@@ -236,6 +305,10 @@
   color: #000000;
   font-family: 'lilita one', cursive;
   border-bottom: #000000 3px solid;
+}
+
+#experience-para{
+  text-align: center;
 }
 
 
@@ -294,4 +367,6 @@
   .card__description {
     font-size: 12px;
   } */
+   
 }
+

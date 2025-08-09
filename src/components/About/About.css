@@ -28,7 +28,7 @@
 .text-area-2 {
     /* height: 100px; */
     width: 50%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -46,9 +46,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.head {
-    border-bottom: grey 2px solid;
-}
 
 
 .text-section {
@@ -60,7 +57,7 @@
     color: white;
     text-align: left;
     margin: 0;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-family: 'Mukta', sans-serif;
     /* font-family: 'Ubuntu', sans-serif; */
     /* font-family: 'PT Serif', serif; */
@@ -92,7 +89,7 @@
 
 .text-section p a {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .text-section span {
@@ -113,6 +110,11 @@
     flex-wrap: wrap;
     margin-top: 5px;
 
+}
+
+.head {
+    border-bottom: grey 2px solid;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1120px) {

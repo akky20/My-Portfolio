@@ -26,15 +26,15 @@ const About = () => {
                             <p className='head'>TechEnthusiast</p>
                             <div className="techstack-cont">
                                 <span>Mechanical Engineer</span>
+                                <span>Robotics Enthusiast</span>
                                 <span>CAD Designer</span>
                                 {/* <span>Product Developer</span> */}
                                 <span>ROS/ROS2 Developer</span>
-                                <span>Robotics Enthusiast</span>
                                 <span>Autonomous Systems Enthusiast</span>
                                 <span>AI & Computer Vision</span>
                                 <span>Open-Source Contributor</span>
                             </div>
-                            <p>Proficient in Python coding with a passion for Robotics and active engagement in ROS (Robot Operating System) & Currently working as a remote intern as a Mechatronics Engineer at Summon (Paris, France)</p>
+                            <p>Passionate about Robotics with strong expertise in Mechanical Design and active engagement in ROS (Robot Operating System). Currently working remotely as a Mechatronics Engineer Intern at Summon.</p>
                         </div>
                         <div className='text-section'>
                             <p className='head'>Creative Expressions</p>

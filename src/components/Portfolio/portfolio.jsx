@@ -57,19 +57,21 @@ const Portfolio = () => {
                     <h1>Professional <span>Experience</span></h1>
                     <p id='experience-para'>My Journey in Technology and Research...</p>
                     
-                    <div className='experience-cards'>
+                    <div className="experience-timeline">
                         {experiences.map((exp, index) => (
-                            <div key={index} className="experience-card">
-                                <div className="experience-header">
-                                    <WorkIcon className="work-icon" />
-                                    <h3>{exp.title}</h3>
+                            <div key={index} className="experience-item">
+                                <div className="experience-icon">
+                                    <WorkIcon />
                                 </div>
-                                <h4>{exp.company}</h4>
-                                <p className="duration">{exp.duration}</p>
-                                <p className="description">{exp.description}</p>
-                                <p className="technologies">
-                                    <strong>Technologies:</strong> {exp.technologies}
-                                </p>
+                                <div className="experience-content">
+                                    <h3>{exp.title}</h3>
+                                    <h4>{exp.company}</h4>
+                                    <p className="duration">{exp.duration}</p>
+                                    <p className="description">{exp.description}</p>
+                                    <p className="technologies">
+                                        <strong>Technologies:</strong> {exp.technologies}
+                                    </p>
+                                </div>
                             </div>
                         ))}
                     </div>
